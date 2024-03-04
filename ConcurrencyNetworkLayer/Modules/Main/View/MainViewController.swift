@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  ConcurrencyNetworkLayer
 //
 //  Created by Cenk Bahadır Çark on 4.03.2024.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class MainViewController: UIViewController {
 
+    var viewModel: MainViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewModel?.fetchSongs()
     }
-
-
 }
-

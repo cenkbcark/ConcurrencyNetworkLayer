@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		BCCADA8A2B9640B200B4F121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADA892B9640B200B4F121 /* AppDelegate.swift */; };
 		BCCADA8C2B9640B200B4F121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADA8B2B9640B200B4F121 /* SceneDelegate.swift */; };
-		BCCADA8E2B9640B200B4F121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADA8D2B9640B200B4F121 /* ViewController.swift */; };
 		BCCADA912B9640B200B4F121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCADA8F2B9640B200B4F121 /* Main.storyboard */; };
 		BCCADA932B9640B300B4F121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCADA922B9640B300B4F121 /* Assets.xcassets */; };
 		BCCADA962B9640B300B4F121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCADA942B9640B300B4F121 /* LaunchScreen.storyboard */; };
+		BCCADAA32B96418600B4F121 /* MainEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAA22B96418600B4F121 /* MainEndPoint.swift */; };
+		BCCADAA52B9641AD00B4F121 /* Endpointable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAA42B9641AD00B4F121 /* Endpointable.swift */; };
+		BCCADAA72B9641BD00B4F121 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAA62B9641BD00B4F121 /* Networkable.swift */; };
+		BCCADAA92B96420400B4F121 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAA82B96420400B4F121 /* ListService.swift */; };
+		BCCADAB12B96439C00B4F121 /* MainViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAB02B96439C00B4F121 /* MainViewModelProtocol.swift */; };
+		BCCADAB32B9643A200B4F121 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAB22B9643A200B4F121 /* MainViewModel.swift */; };
+		BCCADAB62B96448A00B4F121 /* MostPlayedSongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAB52B96448A00B4F121 /* MostPlayedSongResponse.swift */; };
+		BCCADABD2B964A4B00B4F121 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADABB2B964A4B00B4F121 /* MainViewController.swift */; };
+		BCCADABE2B964A4B00B4F121 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCADABC2B964A4B00B4F121 /* MainViewController.xib */; };
+		BCCADAC42B964D4800B4F121 /* ListServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCADAC32B964D4800B4F121 /* ListServiceProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCCADA862B9640B200B4F121 /* ConcurrencyNetworkLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyNetworkLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCADA892B9640B200B4F121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCCADA8B2B9640B200B4F121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCCADA8D2B9640B200B4F121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCCADA902B9640B200B4F121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCCADA922B9640B300B4F121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCADA952B9640B300B4F121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCADA972B9640B300B4F121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCADAA22B96418600B4F121 /* MainEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEndPoint.swift; sourceTree = "<group>"; };
+		BCCADAA42B9641AD00B4F121 /* Endpointable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpointable.swift; sourceTree = "<group>"; };
+		BCCADAA62B9641BD00B4F121 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		BCCADAA82B96420400B4F121 /* ListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListService.swift; sourceTree = "<group>"; };
+		BCCADAB02B96439C00B4F121 /* MainViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelProtocol.swift; sourceTree = "<group>"; };
+		BCCADAB22B9643A200B4F121 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BCCADAB52B96448A00B4F121 /* MostPlayedSongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPlayedSongResponse.swift; sourceTree = "<group>"; };
+		BCCADABB2B964A4B00B4F121 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BCCADABC2B964A4B00B4F121 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BCCADAC32B964D4800B4F121 /* ListServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListServiceProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,96 @@
 		BCCADA882B9640B200B4F121 /* ConcurrencyNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BCCADABF2B964C0700B4F121 /* Modules */,
+				BCCADA9D2B96414300B4F121 /* Network */,
 				BCCADA892B9640B200B4F121 /* AppDelegate.swift */,
 				BCCADA8B2B9640B200B4F121 /* SceneDelegate.swift */,
-				BCCADA8D2B9640B200B4F121 /* ViewController.swift */,
 				BCCADA8F2B9640B200B4F121 /* Main.storyboard */,
 				BCCADA922B9640B300B4F121 /* Assets.xcassets */,
 				BCCADA942B9640B300B4F121 /* LaunchScreen.storyboard */,
 				BCCADA972B9640B300B4F121 /* Info.plist */,
 			);
 			path = ConcurrencyNetworkLayer;
+			sourceTree = "<group>";
+		};
+		BCCADA9D2B96414300B4F121 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAA02B96415B00B4F121 /* Endpoints */,
+				BCCADA9E2B96414B00B4F121 /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BCCADA9E2B96414B00B4F121 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAA42B9641AD00B4F121 /* Endpointable.swift */,
+				BCCADAA62B9641BD00B4F121 /* Networkable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BCCADAA02B96415B00B4F121 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAA22B96418600B4F121 /* MainEndPoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		BCCADAAF2B96438F00B4F121 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAB02B96439C00B4F121 /* MainViewModelProtocol.swift */,
+				BCCADAB22B9643A200B4F121 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCCADAB42B96446C00B4F121 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAB52B96448A00B4F121 /* MostPlayedSongResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCCADAB82B9649FC00B4F121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADABB2B964A4B00B4F121 /* MainViewController.swift */,
+				BCCADABC2B964A4B00B4F121 /* MainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCCADABF2B964C0700B4F121 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAC02B964C0D00B4F121 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BCCADAC02B964C0D00B4F121 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAC12B964C1700B4F121 /* Repository */,
+				BCCADAB82B9649FC00B4F121 /* View */,
+				BCCADAAF2B96438F00B4F121 /* ViewModel */,
+				BCCADAB42B96446C00B4F121 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BCCADAC12B964C1700B4F121 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADAA82B96420400B4F121 /* ListService.swift */,
+				BCCADAC32B964D4800B4F121 /* ListServiceProtocols.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +227,7 @@
 				BCCADA962B9640B300B4F121 /* LaunchScreen.storyboard in Resources */,
 				BCCADA932B9640B300B4F121 /* Assets.xcassets in Resources */,
 				BCCADA912B9640B200B4F121 /* Main.storyboard in Resources */,
+				BCCADABE2B964A4B00B4F121 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +238,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCCADA8E2B9640B200B4F121 /* ViewController.swift in Sources */,
+				BCCADAA52B9641AD00B4F121 /* Endpointable.swift in Sources */,
+				BCCADAB12B96439C00B4F121 /* MainViewModelProtocol.swift in Sources */,
 				BCCADA8A2B9640B200B4F121 /* AppDelegate.swift in Sources */,
 				BCCADA8C2B9640B200B4F121 /* SceneDelegate.swift in Sources */,
+				BCCADAC42B964D4800B4F121 /* ListServiceProtocols.swift in Sources */,
+				BCCADAA72B9641BD00B4F121 /* Networkable.swift in Sources */,
+				BCCADAA92B96420400B4F121 /* ListService.swift in Sources */,
+				BCCADAA32B96418600B4F121 /* MainEndPoint.swift in Sources */,
+				BCCADAB32B9643A200B4F121 /* MainViewModel.swift in Sources */,
+				BCCADAB62B96448A00B4F121 /* MostPlayedSongResponse.swift in Sources */,
+				BCCADABD2B964A4B00B4F121 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
