@@ -74,14 +74,10 @@
 		BCCADA882B9640B200B4F121 /* ConcurrencyNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BCCADAC62B964E6E00B4F121 /* Resources */,
+				BCCADAC52B964E6900B4F121 /* Delegates */,
 				BCCADABF2B964C0700B4F121 /* Modules */,
 				BCCADA9D2B96414300B4F121 /* Network */,
-				BCCADA892B9640B200B4F121 /* AppDelegate.swift */,
-				BCCADA8B2B9640B200B4F121 /* SceneDelegate.swift */,
-				BCCADA8F2B9640B200B4F121 /* Main.storyboard */,
-				BCCADA922B9640B300B4F121 /* Assets.xcassets */,
-				BCCADA942B9640B300B4F121 /* LaunchScreen.storyboard */,
-				BCCADA972B9640B300B4F121 /* Info.plist */,
 			);
 			path = ConcurrencyNetworkLayer;
 			sourceTree = "<group>";
@@ -164,6 +160,26 @@
 				BCCADAC32B964D4800B4F121 /* ListServiceProtocols.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		BCCADAC52B964E6900B4F121 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADA892B9640B200B4F121 /* AppDelegate.swift */,
+				BCCADA8B2B9640B200B4F121 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		BCCADAC62B964E6E00B4F121 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADA972B9640B300B4F121 /* Info.plist */,
+				BCCADA8F2B9640B200B4F121 /* Main.storyboard */,
+				BCCADA922B9640B300B4F121 /* Assets.xcassets */,
+				BCCADA942B9640B300B4F121 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,7 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QHYXVGKS7V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ConcurrencyNetworkLayer/Info.plist;
+				INFOPLIST_FILE = ConcurrencyNetworkLayer/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -430,7 +446,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QHYXVGKS7V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ConcurrencyNetworkLayer/Info.plist;
+				INFOPLIST_FILE = ConcurrencyNetworkLayer/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
